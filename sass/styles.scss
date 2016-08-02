@@ -1,0 +1,35 @@
+$primary-color: #262626;
+$secondary-color: #00cc99;
+$li-hover: #009973;
+
+body{
+  background-color: $primary-color;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-nav{
+  position: relative;
+  right: 49px;
+  bottom: 17px;
+}
+.main-menu li{
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: #f2f2f2;
+  font-weight: normal;
+  background-color: $secondary-color;
+  font-size: 19px;
+  text-align: center;
+  font-weight: bold;
+  padding: 30px 50px;
+  border: 1px solid #595959;
+  border-radius: 4px;
+  margin: auto;
+  -webkit-box-shadow: 6px 72px 61px -41px rgba(0,0,0,0.68);
+  -moz-box-shadow: 6px 72px 61px -41px rgba(0,0,0,0.68);
+  box-shadow: 6px 72px 61px -41px rgba(0,0,0,0.68);
+  cursor:pointer;
+}
+.main-menu li:hover{
+  background-color: $li-hover;
+}
